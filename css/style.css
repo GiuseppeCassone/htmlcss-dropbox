@@ -173,7 +173,7 @@ header .container{
     /* test */
 }
 
-.partner .column-big{
+.column-big{
     flex-grow: 1;
 
     background-color: grey;
@@ -181,7 +181,7 @@ header .container{
     /* test */
 }
 
-.partner .column-small{
+.column-small{
     width: 40%;
 
     background-color: pink;
@@ -279,3 +279,22 @@ header .container{
 
 /* Sesta sezione */
 
+.free-trial{
+    width: 100%;
+
+    background-color: #B4D0E6;
+
+
+    height: 350px;
+    padding-top: 50px;
+
+}
+
+
+.free-trial .big-container{
+    display: flex;
+
+    height: 100%;
+}
+
+/* Ultima sezione */
