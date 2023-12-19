@@ -6,3 +6,60 @@
 
 /* reset */
 
+
+/* Navbar */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 50px;
+    padding: 15px 5px;
+
+    border: 1px solid black;
+    /* test */
+}
+
+.logo-links{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+
+    border: 1px dashed black;
+    /* test */
+
+}
+
+.logo-links ul, .links-btn ul{
+    list-style-type: none;
+
+    border: 1px dashed black;
+    /* test */
+}
+
+li{
+    display: inline-block;
+
+ 
+}
+
+li a{
+    padding-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.links-btn{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+
+
+    border: 1px dashed black;
+    /* test */
+}
