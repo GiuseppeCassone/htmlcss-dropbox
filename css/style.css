@@ -327,7 +327,8 @@ header .container{
 footer{
     width: 100%;
 
-    height: 550px;
+
+    padding: 100px 0px;
     /* test */
 
     background-color: black;
