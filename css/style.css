@@ -18,7 +18,7 @@ nav{
     left: 0;
 
     width: 100%;
-    height: 50px;
+    height: 80px;
     padding: 15px 5px;
 
     background-color: white;
@@ -70,10 +70,10 @@ li a{
 
 header{
     width: 100%;
-    height: 500px;
+    height: 740px;
 
-    padding-top: 100px;
-    margin-bottom: 100px;
+    padding-top: 180px;
+    margin-bottom: 150px;
 
     background-color: #B4D0E6;
 
@@ -83,12 +83,12 @@ header{
 
 header .container{
     max-width: 1200px;
+    height: 620px;
 
     margin-left: auto;
     margin-right: auto;
     
 
-    height: 430px;
     border: 1px dashed black;
     /* test */
 
@@ -113,7 +113,7 @@ header .container{
     /* display: flex; */
     width: 100%;
 
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 
   
 
@@ -122,7 +122,9 @@ header .container{
 .business-plan .title{
     width: 100%;
 
-    height: 100px;
+    margin-bottom: 50px;
+
+    height: 160px;
     border: 1px dashed black;
     background-color: darkred;
     /* test */
@@ -131,14 +133,16 @@ header .container{
 .business-plan .plans{
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 50px;
+
+    margin-bottom: 50px;
 
 }
 
 .professional, .advanced, .enterprise{
-    width: calc(100% / 3 - 20px * 2);
+    width: calc(100% / 3 - 50px * 2);
 
-    height: 600px;
+    height: 950px;
     border: 1px dashed black;
     background-color: grey;
     /* test */
@@ -147,7 +151,7 @@ header .container{
 .business-plan .contact{
     width: 100%;
 
-    height: 200px;
+    height: 260px;
     border: 1px dashed black;
     background-color: darkred;
     /* test */
@@ -183,3 +187,4 @@ header .container{
 
 }
 
+/* Terza sezione */
