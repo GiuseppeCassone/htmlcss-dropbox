@@ -230,6 +230,52 @@ header .container{
     /* test */
 }
 
+/* Quarta sezione */
 
+.clients{
+    width: 100%;
 
+    margin-bottom: 150px;
+
+    height: 200px;
+    background-color: darkred;
+    border: 1px dashed black;
+    /* test */
+}
+
+/* Sezione sponsor */
+
+.container-sponsor{
+    display: flex;
+
+    width: 100%;
+
+    height: 600px;
+    border: 1px dashed black;
+    /* test */
+}
+
+.sponsor, .comment{
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% / 3);
+
+    height: 100%;
+    background-color: green;
+    border: 1px dashed black;
+    /* test */
+}
+
+.sponsor div{
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+
+    background-color: grey;
+    border: 1px dashed black;
+    /* test */
+}
+
+/* Fine sezione sponsor */
+
+/* Sesta sezione */
 
