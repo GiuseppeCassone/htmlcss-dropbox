@@ -12,6 +12,7 @@
 nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
     position: fixed;
     top: 0;
@@ -135,12 +136,14 @@ header .container{
     justify-content: space-between;
     gap: 50px;
 
+    width: 100%;
+
     margin-bottom: 50px;
 
 }
 
 .professional, .advanced, .enterprise{
-    width: calc(100% / 3 - 50px * 2);
+    min-width: calc(100% / 3 - 50px * 2);
 
     height: 950px;
     border: 1px dashed black;
@@ -164,7 +167,7 @@ header .container{
     display: flex;
     width: 100%;
 
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 
     height: 300px;
     /* test */
@@ -188,3 +191,45 @@ header .container{
 }
 
 /* Terza sezione */
+
+.operations{
+    width: 100%;
+
+    margin-bottom: 150px;
+}
+
+.operations .op-title{
+    width: 100%;
+
+    margin-bottom: 50px;
+
+    height: 100px;
+    background-color: darkred;
+    border: 1px dashed black;
+    /* test */
+}
+
+.operations .op-cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+
+
+    border: 1px solid black;
+    /* test */
+
+}
+
+.op-cards .card{
+    width: calc(100% / 3 - 50px * 2);
+
+    height: 600px;
+    background-color: gray;
+    border: 1px dashed black;
+    /* test */
+}
+
+
+
+
