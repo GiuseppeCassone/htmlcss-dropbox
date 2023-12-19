@@ -286,7 +286,7 @@ header .container{
 
 
     height: 350px;
-    padding-top: 50px;
+    /* test */
 
 }
 
@@ -298,3 +298,23 @@ header .container{
 }
 
 /* Ultima sezione */
+
+.questions{
+    width: 100%;
+
+    height: 720px;
+    padding-top: 150px;
+    padding-bottom: 130px;
+    /* test */
+}
+
+.questions .big-container{
+    height: 400px;
+    background-color: green;
+    border: 1px dashed black;
+    /* test */
+}
+
+/* Fine main */
+
+
