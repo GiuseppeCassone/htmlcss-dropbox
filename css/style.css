@@ -44,12 +44,12 @@ nav{
     list-style-type: none;
 }
 
-li{
-    display: inline-block;
+nav ul{
+    display: flex;
+    gap: 20px;
 }
 
 li a{
-    padding-right: 20px;
     text-decoration: none;
     color: black;
 }
