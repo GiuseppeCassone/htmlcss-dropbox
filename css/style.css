@@ -381,10 +381,16 @@ h3{
 
     margin-bottom: 150px;
 
-    height: 200px;
-    background-color: darkred;
-    border: 1px dashed black;
-    /* test */
+}
+
+.clients h2{
+    font-size: 40px;
+
+    margin-bottom: 60px;
+}
+
+.clients a{
+    color: blue;
 }
 
 /* Sezione sponsor */
@@ -393,30 +399,86 @@ h3{
     display: flex;
 
     width: 100%;
-
-    height: 600px;
-    border: 1px dashed black;
-    /* test */
 }
 
 .sponsor, .comment{
+    
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+
+}
+
+.sponsor{
     display: flex;
     flex-wrap: wrap;
-    width: calc(100% / 3);
-
-    height: 100%;
-    background-color: green;
-    border: 1px dashed black;
-    /* test */
 }
 
 .sponsor div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     width: calc(100% / 2);
     height: calc(100% / 2);
 
-    background-color: grey;
-    border: 1px dashed black;
-    /* test */
+}
+
+.comment{
+    padding: 0px 40px;
+
+    background-color: #F5F5F5;
+}
+
+
+
+.comment img{
+    width: 100%;
+    transform: scale(0.5);
+}
+
+.comment hr{
+    width: 25%;
+
+    margin-bottom: 40px;
+}
+
+.sponsor div img{
+    width: 100%;
+
+    transform: scale(0.5);
+    filter: invert(100%) sepia(0%) saturate(4405%) hue-rotate(69deg) brightness(117%) contrast(93%);
+}
+
+#designit{
+    background-color: #A2D39B;
+}
+
+#asu{
+    background-color: #62082B;
+}
+
+#uflorida{
+    background-color: #0193CE;
+}
+
+#topps{
+    background-color: #FF1C1D;
+}
+
+#wbr{
+    background-color: #D50020;
+}
+
+#hearst{
+    background-color: #B4D0E6;
+}
+
+#lonely-planet{
+    background-color: #0D2481;
+}
+
+#cco{
+    background-color: #FFD930;
 }
 
 /* Fine sezione sponsor */
