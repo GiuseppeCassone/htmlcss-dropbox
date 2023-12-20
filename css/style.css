@@ -110,7 +110,7 @@ header .container .jumbotron{
 
 header .container .text{
     display: flex;
-    justify-content: flex-start;
+    align-items: flex-start;
     flex-direction: column;
     gap: 30px;
 
