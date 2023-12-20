@@ -21,15 +21,15 @@ nav{
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1;
 
     width: 100%;
     height: 80px;
     padding: 15px 20px;
 
     background-color: white;
+    border-bottom: 1px solid lightgrey;
 
-    border: 1px solid black;
-    /* test */
 }
 
 .logo-links{
@@ -82,7 +82,6 @@ li a{
 
 header{
     width: 100%;
-    height: 740px;
 
     padding-top: 130px;
     margin-bottom: 150px;
@@ -156,13 +155,9 @@ header .container .text i{
 /* Prima sezione */
 
 .business-plan{
-    /* display: flex; */
     width: 100%;
 
     margin-bottom: 150px;
-
-  
-
 }
 
 .business-plan .title{
@@ -170,11 +165,24 @@ header .container .text i{
 
     margin-bottom: 50px;
 
-    height: 160px;
-    border: 1px dashed black;
-    background-color: darkred;
-    /* test */
 }
+
+.business-plan .title h2{
+    margin-bottom: 60px;
+
+    font-size: 40px;
+
+}
+
+.business-plan .title input{
+    margin: 0px 8px;
+    transform: scale(2);
+}
+
+.business-plan .title label{
+    margin-right: 40px;
+}
+
 
 .business-plan .plans{
     display: flex;
@@ -188,13 +196,54 @@ header .container .text i{
 }
 
 .professional, .advanced, .enterprise{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
     min-width: calc(100% / 3 - 50px / 3 * 2);
 
-    height: 950px;
-    border: 1px dashed black;
-    background-color: grey;
-    /* test */
+    border: 1px solid grey;
 }
+
+.professional div:first-child, .advanced div:first-child, .enterprise div:first-child{
+    text-align: center;   
+    width: 100%;
+
+    padding: 5px 0px;
+    border-bottom: 1px solid grey;
+}
+
+.subscription{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+
+    padding: 30px 25px;
+}
+
+.mg-bottom{
+    margin-bottom: 50px;
+}
+
+
+.plans hr{
+    width: 20%;
+    margin-top: 30px;
+}
+
+.subscription .btn{
+    width: 100%;
+    text-align: center;
+
+    margin-bottom: 30px;
+}
+
+.subscription .fa-check{
+    color: #0D61E4;
+}
+
+
 
 .business-plan .contact{
     width: 100%;
@@ -205,6 +254,8 @@ header .container .text i{
     /* test */
 
 }
+
+
 
 /* Seconda sezione */
 
