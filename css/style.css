@@ -6,6 +6,10 @@
 
 /* reset */
 
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
 
 /* Navbar */
 
@@ -20,7 +24,7 @@ nav{
 
     width: 100%;
     height: 80px;
-    padding: 15px 5px;
+    padding: 15px 20px;
 
     background-color: white;
 
@@ -31,18 +35,13 @@ nav{
 .logo-links{
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     gap: 20px;
-
-    border: 1px dashed black;
-    /* test */
 
 }
 
 .logo-links ul, .links-btn ul{
     list-style-type: none;
-
-    border: 1px dashed black;
-    /* test */
 }
 
 li{
@@ -58,11 +57,16 @@ li a{
 .links-btn{
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     gap: 20px;
 
+}
 
-    border: 1px dashed black;
-    /* test */
+.links-btn .btn-small{
+    padding: 10px 15px;
+
+    background-color: #0D61E4;
+    color: white;
 }
 
 /* Fine navbar */
@@ -146,7 +150,7 @@ header .container{
 }
 
 .professional, .advanced, .enterprise{
-    min-width: calc(100% / 3 - 50px * 2);
+    min-width: calc(100% / 3 - 50px / 3 * 2);
 
     height: 950px;
     border: 1px dashed black;
