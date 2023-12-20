@@ -323,6 +323,15 @@ h3{
 
 .column-small .btn{
     width: 160px;
+
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    
+    background-color: white;
+    color: black;
 }
 
 /* Terza sezione */
