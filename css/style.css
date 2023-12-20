@@ -543,12 +543,21 @@ h3{
     /* test */
 }
 
-.questions .big-container{
-    height: 400px;
-    background-color: green;
-    border: 1px dashed black;
-    /* test */
+.questions .big-container h2{
+    font-size: 40px;
+    margin-bottom: 50px;
 }
+
+.questions .big-container .faq{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+
+.questions .faq i{
+    padding-right: 40px;
+}
+
 
 /* Fine main */
 
