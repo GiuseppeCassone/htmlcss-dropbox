@@ -458,6 +458,8 @@ h3{
 
 #designit{
     background-color: #A2D39B;
+    border: 10px solid #c0e3bc;
+    background-clip: border-box;
 }
 
 #asu{
