@@ -424,7 +424,7 @@ h3{
 }
 
 .comment{
-    padding: 0px 40px;
+    padding: 30px 40px;
 
     background-color: #F5F5F5;
 }
@@ -433,13 +433,20 @@ h3{
 
 .comment img{
     width: 100%;
-    transform: scale(0.5);
+    transform: scale(0.9);
+    margin-bottom: 40px;
 }
 
 .comment hr{
     width: 25%;
 
     margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+.comment p{
+    margin-bottom: 50px;
+    padding-left: 20px;
 }
 
 .sponsor div img{
@@ -492,18 +499,38 @@ h3{
 
     background-color: #B4D0E6;
 
-
-    height: 350px;
-    /* test */
-
 }
 
 
 .free-trial .big-container{
     display: flex;
+    justify-content: space-between;
 
     height: 100%;
 }
+
+.free-trial .column-left{
+    width: 60%;
+}
+
+.free-trial .column-right{
+    width: 40%;
+    padding-top: 10px;
+
+}
+
+.column-left h2{
+    font-size: 40px;
+}
+
+.column-right .btn{
+    text-align: center;
+    border: 1px solid lightgrey;
+    background-color: white;
+    color: black;
+}
+
+
 
 /* Ultima sezione */
 
