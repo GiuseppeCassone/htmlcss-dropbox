@@ -329,7 +329,7 @@ h3{
 
     border-left: 2px solid black;
     border-bottom: 2px solid black;
-    
+
     background-color: white;
     color: black;
 }
@@ -344,13 +344,10 @@ h3{
 
 .operations .op-title{
     width: 100%;
+    font-size: 30px;
 
     margin-bottom: 50px;
 
-    height: 100px;
-    background-color: darkred;
-    border: 1px dashed black;
-    /* test */
 }
 
 .operations .op-cards{
@@ -359,20 +356,23 @@ h3{
     flex-wrap: wrap;
     gap: 50px;
 
-
-    border: 1px solid black;
-    /* test */
-
 }
 
 .op-cards .card{
     width: calc(100% / 3 - 50px * 2);
 
-    height: 600px;
-    background-color: gray;
-    border: 1px dashed black;
-    /* test */
 }
+
+.card img{
+    width: 100%;
+
+}
+
+.card h3{
+    margin-bottom: 35px;
+}
+
+
 
 /* Quarta sezione */
 
