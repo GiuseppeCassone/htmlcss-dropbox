@@ -205,12 +205,16 @@ header .container .text i{
     border: 1px solid grey;
 }
 
-.professional div:first-child, .advanced div:first-child, .enterprise div:first-child{
+.professional div:first-child, .advanced div:first-child, .enterprise div:first-child, .contact .type{
     text-align: center;   
     width: 100%;
 
     padding: 5px 0px;
     border-bottom: 1px solid grey;
+}
+
+h3{
+    font-size: 20px;
 }
 
 .subscription{
@@ -248,14 +252,37 @@ header .container .text i{
 .business-plan .contact{
     width: 100%;
 
-    height: 260px;
-    border: 1px dashed black;
-    background-color: darkred;
-    /* test */
-
+    border: 1px solid grey;
 }
 
 
+
+.contact .sell-office{
+    display: flex;
+    width: 100%;
+
+    padding: 30px 25px;
+}
+
+.sell-office .col-big{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 75%;
+}
+
+.sell-office .col-small{
+    display: flex;
+    justify-content: flex-end;
+    width: 25%;
+}
+
+.sell-office .col-small .btn{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+
+}
 
 /* Seconda sezione */
 
