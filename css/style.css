@@ -445,10 +445,14 @@ h3{
 }
 
 .comment{
-    padding: 30px 40px;
+    padding: 30px 50px;
 
     background-color: #F5F5F5;
-    overflow: auto;
+    overflow-y: hidden;
+}
+
+.comment:hover{
+    overflow-y: scroll;
 }
 
 
@@ -591,6 +595,29 @@ h3{
 
 .questions .faq i{
     padding-right: 40px;
+}
+
+.faq-list:hover{
+    background-color: #B4D0E6;
+}
+
+.faq-list:hover i{
+    transform: rotate(180deg);
+
+    padding-left: 40px;
+}
+
+
+
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.1s;
+}
+
+.faq-list:hover .answer{
+    max-height: 100%;
+    padding-bottom: 40px;
 }
 
 
