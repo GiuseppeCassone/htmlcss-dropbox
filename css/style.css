@@ -54,6 +54,10 @@ li a{
     color: black;
 }
 
+nav li:hover{
+    font-weight: bold;
+}
+
 .links-btn{
     display: flex;
     justify-content: flex-end;
@@ -66,6 +70,16 @@ li a{
     padding: 10px 15px;
 
     background-color: #0D61E4;
+    transition: 0.3s;
+    color: white;
+}
+
+.btn:hover{
+    opacity: 0.7;
+}
+
+nav .btn a{
+    text-decoration: none;
     color: white;
 }
 
@@ -184,6 +198,7 @@ header .container .text i{
 }
 
 
+
 .business-plan .plans{
     display: flex;
     justify-content: space-between;
@@ -211,10 +226,12 @@ header .container .text i{
 
     padding: 5px 0px;
     border-bottom: 1px solid grey;
+    font-size: 12px;
 }
 
 h3{
     font-size: 20px;
+    margin-bottom: 10px;
 }
 
 .subscription{
@@ -241,6 +258,7 @@ h3{
     text-align: center;
 
     margin-bottom: 30px;
+    text-decoration: none;
 }
 
 .subscription .fa-check{
@@ -281,6 +299,8 @@ h3{
     width: 100%;
     height: 40px;
     text-align: center;
+    text-decoration: none;
+    color: white;
 
 }
 
@@ -332,6 +352,7 @@ h3{
 
     background-color: white;
     color: black;
+    text-decoration: none;
 }
 
 /* Terza sezione */
@@ -339,7 +360,7 @@ h3{
 .operations{
     width: 100%;
 
-    margin-bottom: 150px;
+    margin-bottom: 200px;
 }
 
 .operations .op-title{
@@ -427,13 +448,14 @@ h3{
     padding: 30px 40px;
 
     background-color: #F5F5F5;
+    overflow: auto;
 }
 
 
 
 .comment img{
+    max-width: 280px;
     width: 100%;
-    transform: scale(0.9);
     margin-bottom: 40px;
 }
 
@@ -441,12 +463,10 @@ h3{
     width: 25%;
 
     margin-bottom: 40px;
-    margin-left: 20px;
 }
 
 .comment p{
     margin-bottom: 50px;
-    padding-left: 20px;
 }
 
 .sponsor div img{
@@ -458,8 +478,7 @@ h3{
 
 #designit{
     background-color: #A2D39B;
-    border: 10px solid #c0e3bc;
-    background-clip: border-box;
+    
 }
 
 #asu{
@@ -488,6 +507,14 @@ h3{
 
 #cco{
     background-color: #FFD930;
+}
+
+.sponsor div{
+    transition: 0.5s;
+}
+
+.sponsor div:hover, .sponsor div:active{
+    border: 10px solid rgba(255, 255, 255, 0.5);
 }
 
 /* Fine sezione sponsor */
@@ -529,8 +556,14 @@ h3{
     text-align: center;
     border: 1px solid lightgrey;
     background-color: white;
-    color: black;
+    
 }
+
+.column-right .btn a{
+    color: black;
+    text-decoration: none;
+}
+
 
 
 
